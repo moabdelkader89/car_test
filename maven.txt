@@ -1,1 +1,1 @@
-mvn BUILD 
+mvn install 
