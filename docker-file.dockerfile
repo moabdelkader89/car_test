@@ -11,4 +11,4 @@ COPY ${JAR_FILE} app.jar
 EXPOSE 8080
 
 # الأمر لتشغيل التطبيق
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar/C:\ProgramData\Jenkins\.jenkins\workspace\docker\target"]
