@@ -1,7 +1,7 @@
 FROM openjdk:11-jre-slim
 
 # تحديد متغير بيئة للملف JAR
-ARG JAR_FILE=C:\ProgramData\Jenkins\.jenkins\workspace\docker\target
+ARG JAR_FILE=C:\ProgramData\Jenkins\.jenkins\workspace\docker-image
 
 # نسخ الملف JAR إلى صورة Docker
 COPY ${JAR_FILE} app.jar
